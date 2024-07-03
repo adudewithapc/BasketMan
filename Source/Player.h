@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Source/Component/Component.h>
+#include <Component/Component.h>
 
 class PlayerMovement : public Component
 {

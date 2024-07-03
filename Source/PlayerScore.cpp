@@ -1,5 +1,5 @@
 #include "PlayerScore.h"
-#include <Source/GameObject.h>
+#include <GameObject.h>
 #include <iostream>
 
 PlayerScore::PlayerScore(GameObject* owner) : Component(owner)

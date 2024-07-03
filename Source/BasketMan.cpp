@@ -1,9 +1,9 @@
-#include <Source/GregorianEngine.h>
+#include <GregorianEngine.h>
 #include "Player.h"
-#include <Source/Component/2D/Sprite.h>
-#include <Source/Math/Matrix/Mat3x3.h>
+#include <Component/2D/Sprite.h>
+#include <Math/Matrix/Mat3x3.h>
 #include "AppleSpawner.h"
-#include <Source/Component/2D/BoxCollider2D.h>
+#include <Component/2D/BoxCollider2D.h>
 #include "PlayerScore.h"
 
 int main()

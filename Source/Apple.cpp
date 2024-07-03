@@ -1,8 +1,8 @@
 #include "Apple.h"
-#include <Source/GameObject.h>
-#include <Source/Time.h>
+#include <GameObject.h>
+#include <GregTime.h>
 #include <iostream>
-#include <Source/Window.h>
+#include <Window.h>
 
 Apple::Apple(GameObject* owner) : Component(owner)
 {

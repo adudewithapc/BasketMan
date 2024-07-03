@@ -1,9 +1,9 @@
 #include "AppleSpawner.h"
-#include <Source/Component/2D/Sprite.h>
+#include <Component/2D/Sprite.h>
 #include "Apple.h"
-#include <Source/Time.h>
-#include <Source/GregorianEngine.h>
-#include <Source/Component/2D/BoxCollider2D.h>
+#include <GregTime.h>
+#include <GregorianEngine.h>
+#include <Component/2D/BoxCollider2D.h>
 
 AppleSpawner::AppleSpawner(GameObject* owner, size_t width, float topOffset) : Component(owner), width(width), topOffset(topOffset)
 {

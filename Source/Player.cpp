@@ -1,8 +1,8 @@
 #include "Player.h"
 #include <iostream>
-#include <Source/GameObject.h>
-#include <Source/Input/Keyboard.h>
-#include <Source/Time.h>
+#include <GameObject.h>
+#include <Input/Keyboard.h>
+#include <GregTime.h>
 
 PlayerMovement::PlayerMovement(GameObject* owner) : Component(owner)
 {
